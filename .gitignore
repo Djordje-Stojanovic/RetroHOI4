@@ -1,0 +1,26 @@
+# BMAD (local only)
+.bmad-core/
+.bmad-*/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+.env
+.venv/
+venv/
+
+# Node/npm artifacts (if experimenting with tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Build/output
+build/
+dist/
